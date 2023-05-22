@@ -166,8 +166,7 @@ hist(rnorm(100))
 
 Please explain why the above code creates two different histograms.
 
-### ANSWER:
-
+### ANSWER: The reason why we get two different pictures by running the code is that the second sampling is a process after the first sampling, instead of a process beginning at the seed 50.
 
 ### Q2: Modify the code below so that the same histogram is plotted twice.
 
